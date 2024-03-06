@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(45deg, #AD88C6, #F5DD61);
+    display: flex;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    
+    animation: animategradient linear 10s infinite ;
+}
+@keyframes animategradient {
+    
+    10%{
+        background: linear-gradient(45deg, #AD88C6, #F5DD61);
+    }
+    20%{
+        background: linear-gradient(75deg, #AD88C6, #F5DD61);
+    }
+    30%{
+        background: linear-gradient(90deg, #AD88C6, #F5DD61);
+    }
+    40%{
+        background: linear-gradient(90deg, #AD88C6, #F5DD61);
+    }
+    50%{
+        background: linear-gradient(180deg, #AD88C6, #F5DD61);
+    }
+    60%{
+        background: linear-gradient(225deg, #AD88C6, #F5DD61);
+    }
+    70%{
+        background: linear-gradient(180deg, #AD88C6, #F5DD61);   
+    }
+    80%{
+        background: linear-gradient(135deg, #AD88C6, #F5DD61);   
+    }
+    90%{
+        background: linear-gradient(90deg, #AD88C6, #F5DD61);   
+    }
+    100%{
+        background: linear-gradient(45deg, #AD88C6, #F5DD61);   
+    }
+    
+}
+
+.date-picker{
+    padding: 7px 14px;
+    border-radius: 35px;
+    border: none;
+
+}
+
+.start-btn{
+    background: #fff;
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 16px;
+    margin-left: 12px;
+}
+
+.count-txt span{
+     font-size: 30px;
+     letter-spacing: 0.04em;
+
+}
+ 
+.justify-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.count-pos{
+    margin-top: 50px;
+    margin-right: 6px;
+    margin-left: 2px;
+}
+
